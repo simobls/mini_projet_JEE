@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>miniProjet_JEE</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+  	<servlet-name>LogInServlet</servlet-name>
+  	<servlet-class>controlleur.LogInServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>LogInServlet</servlet-name>
+  	<url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>SignUpServlet</servlet-name>
+  	<servlet-class>controlleur.SignUpServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SignUpServlet</servlet-name>
+  	<url-pattern>/Signup</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>addCarServlet</servlet-name>
+  	<servlet-class>controlleur.addCarServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>addCarServlet</servlet-name>
+  	<url-pattern>/addCar</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>SearchServlet</servlet-name>
+  	<servlet-class>controlleur.SearchServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SearchServlet</servlet-name>
+  	<url-pattern>/Search</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>locationServlet</servlet-name>
+  	<servlet-class>controlleur.locationServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>locationServlet</servlet-name>
+  	<url-pattern>/location</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>updateServlet</servlet-name>
+  	<servlet-class>controlleur.updateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>updateServlet</servlet-name>
+  	<url-pattern>/updateCar</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>deleteServlet</servlet-name>
+  	<servlet-class>controlleur.deleteServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>deleteServlet</servlet-name>
+  	<url-pattern>/deleteCar</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>logoutServlet</servlet-name>
+  	<servlet-class>controlleur.logoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>logoutServlet</servlet-name>
+  	<url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>deleteLocation</servlet-name>
+  	<servlet-class>controlleur.deleteLocation</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>deleteLocation</servlet-name>
+  	<url-pattern>/deleteLocat</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>updateLocation</servlet-name>
+  	<servlet-class>controlleur.updateLocation</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>updateLocation</servlet-name>
+  	<url-pattern>/updateLocat</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>addLocation</servlet-name>
+  	<servlet-class>controlleur.addLocation</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>addLocation</servlet-name>
+  	<url-pattern>/addLocat</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>addReservation</servlet-name>
+  	<servlet-class>controlleur.addReservation</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>addReservation</servlet-name>
+  	<url-pattern>/addReserv</url-pattern>
+  </servlet-mapping>
+</web-app>

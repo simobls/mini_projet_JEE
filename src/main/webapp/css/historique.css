@@ -1,0 +1,203 @@
+body{
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    margin: 0 20px;
+    font-family: 'Raleway', sans-serif;
+    color: #4b4a4a;
+    padding: 4vh 2vh;
+}
+
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 7vh;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    
+}
+nav ul li:hover {
+    font-size: 1.2rem;
+    color: #222222;
+    font-weight:500;
+}
+nav div {
+    display: flex;
+    align-items: center;
+}
+
+.log, .sign {
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 1rem;
+}
+.log a {
+    color: #222222;
+    text-decoration: none;
+}
+
+.sign a{
+    color: #f9f9f9;
+    text-decoration: none;
+}
+.log {
+    background: transparent;
+	border-radius: 13px;
+    box-sizing: border-box;
+	cursor: pointer;
+	padding: 8px 13px;
+    border: none;
+    color: #4b4a4a;
+}
+.sign, .more, .res {
+	background: #2e2d2d;
+	border-radius: 10px;
+    box-sizing: border-box;
+    color: #f9f9f9;
+	cursor: pointer;
+	padding: 7px 13px;
+    border: none;
+}
+.log:hover {
+    opacity: 0.9;
+}
+.sign:hover {
+    opacity: 0.9;
+}
+
+nav img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 10px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.car {
+    padding: 20px 10px;
+    width : 62vh;
+    text-align: left;
+    border-radius: 2vh;
+    color: #2e2d2d;
+    margin-left: 5vh;
+}
+
+.car img {
+    width: 90%;
+    max-height: 200px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.car h2 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+    margin: 0 5vh;
+    font-family: 'Raleway', sans-serif;
+}
+
+.price {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    margin: 1vh 6vh;
+    opacity: 0.8;
+}
+
+.car button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 58vh;
+    height: 45vh;
+    border-radius: 5vh;
+    margin: 0 auto; /* Add this line to center the div horizontally */
+    background: linear-gradient(180deg, rgba(196, 195, 195, 0.4), rgba(249, 249, 249, 0));
+}
+
+table {
+	width: 90%;
+	text-align: center;
+    margin-left: 5%;
+}
+
+table th {
+	width: 10%;
+	opacity: 0.4;
+	font-weight: 100;
+	border: whitesmoke;
+	border-width: 0px 0px 0.5px 0px;
+	align-items: center;
+}
+
+table td {
+	width: 10%;
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+	font-weight: 500;
+	border: solid whitesmoke;
+	border-width: 0.5px 0;
+	text-transform: capitalize;
+}
+hr {
+	border-top: 1px solid whitesmoke;
+}
+tr {
+	line-height: 50px;
+	text-transform: capitalize;
+}
+
+.cont {
+	display: flex;
+	flex-direction: column;
+	height: 550px;
+	width: 100vw;
+	margin: auto;
+	margin-top: 2vh;
+	position: relative;
+	margin: auto;
+	margin-top: 5vh;
+	overflow-x: hidden;
+    overflow-y: auto;
+    flex: 0.95;
+}
+
+td img {
+    margin-top: 3vh;
+}
+
+a{
+	color :#4b4a4a;
+}
+
+h2 {
+    margin-left: 12vh;
+    color: #4b4a4a;
+}
